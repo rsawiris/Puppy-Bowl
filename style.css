@@ -1,0 +1,44 @@
+body {
+background-color: goldenrod;}
+
+#mainHeader {
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px
+    
+}
+
+
+
+h1.name{
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: white;
+    transition: all 0.5s;
+    
+}
+
+.puppyContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name:hover{
+    background-color: lightblue;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: lightblue;
+}
